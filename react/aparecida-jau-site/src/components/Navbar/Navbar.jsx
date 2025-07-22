@@ -1,30 +1,46 @@
 import React from 'react';
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Layout from "../Layout";
+
+import Inicio from '../Inicio';
+
+import Paroquia from '../Paroquia';
+
+import Boletim from '../Boletim';
+
+import Contato from '../Contato';
+
+import NoPage from '../NoPage';
+
 import './navbar.css';
 
 function Navbar() {
 
   return (
 
-    <header>
+    <BrowserRouter>
 
-        <nav className='navbar'>
+        <Routes>
 
-            <ul>
+          <Route path="/" element={<Layout />}>
 
-                <li><a href="#">Início</a></li>
+            <Route index element={<Inicio />} />
 
-                <li><a href="#">Paróquia</a></li>
+            <Route path="paroquia" element={<Paroquia />} />
 
-                <li><a href="#">Boletim Informativo</a></li>
+            <Route path="boletim" element={<Boletim />} />
 
-                <li><a href="#">Contato</a></li>
+            <Route path="contato" element={<Contato />} />
 
-            </ul>
+            <Route path="*" element={<NoPage />} />
 
-        </nav>
+          </Route>
 
-    </header>
+        </Routes>
+        
+    </BrowserRouter>
 
   )
 
