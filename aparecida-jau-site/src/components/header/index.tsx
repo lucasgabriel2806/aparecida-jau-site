@@ -23,7 +23,7 @@ export function Header() {
                         </li>
 
                         <li>
-                            <Link href='/paroquia'>
+                            <Link href='/paroquia/historia'>
                                 Paróquia
                             </Link>
                         </li>
