@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 
+import Image from 'next/image';
+
 export const metadata: Metadata = {
   title: 'Aparecida Jaú | História'
 }
@@ -16,7 +18,13 @@ export default function Historia() {
 
       <p>Nesta matéria vamos contar a história de nosso começo e de como a comunidade teve um papel fundamental na construção de nossa história.</p>
 
-      <img src='../../assets/img/pages/paroquia/historia/redimensionadas/igreja_antiga.jpg' className='' alt='igreja antiga' />
+      <Image 
+        src='/img/paroquia/historia/redimensionadas/igreja_antiga.jpg'
+        width={680} 
+        height={450}
+        className='' 
+        alt='igreja antiga' 
+      />
 
       <h2 className='text-2xl font-bold uppercase'>A Avenida e as Reuniões</h2>
 
