@@ -38,7 +38,12 @@ export default function Historia() {
 
       <p className=''>Então os três doadores foram a um bar e colocaram as suas ideias sobre uma igreja no bairro. O dono do bar em que houve a reunião, senhor Alcides Nunes, ofereceu um salão de sua propriedade, anexo ao bar, para a construção.</p>
 
-      <img src='../../assets/img/pages/paroquia/historia/redimensionadas/10.jpg' className='' alt='reuniões para a construção da paróquia' />
+      <Image 
+        src='/img/paroquia/historia/redimensionadas/10.jpg' 
+        width={680} 
+        height={450}
+        className='' 
+        alt='reuniões para a construção da paróquia' />
 
       <h2 className='text-2xl font-bold uppercase'>A Autorização</h2>
 
@@ -48,7 +53,12 @@ export default function Historia() {
 
       <p className=''>Trofino comenta que esses loteadores fizeram a doação de três lotes de terra com frente para a rua 24 de maio e fundo para a rua Benjamin Constant (que hoje já não existe mais).</p>
 
-      <img src='../../assets/img/pages/paroquia/historia/redimensionadas/5.jpg' className='' alt='a busca pela autorização' />
+      <Image 
+        src='/img/paroquia/historia/redimensionadas/5.jpg' 
+        width={680}
+        height={450}
+        className='' 
+        alt='a busca pela autorização' />
 
       <h2 className='text-2xl font-bold uppercase'>As Comissões, Doações, e as Quermesses</h2>
 
@@ -56,7 +66,13 @@ export default function Historia() {
 
       <p className=''>“Mas o Sr. Fuad Nassif Name vendo a boa vontade desse grupo de moradores no bairro, fez doação de uma área de 6 lotes da Quadra “S” do loteamento Vila Nova Jaú, lotes esses 7,8,9,10,11,12, com frente para a Rua Sampaio Bueno, esquina com a Rua 24 de Maio e fazendo fundos com a Rua Alberto Barboza. Com o terreno já adquirido, o entusiasmo foi ainda maior, sendo que com esses lotes foram lavradas as escrituras no dia 26 de abril de 1957, em nome da Mitra Diocesana de São Carlos, Estado de São Paulo, neste ato, representado por seu procurador Monsenhor Francisco Serra. Como se tratava de um loteamento em implantação ainda não dotado de água, nem energia elétrica, o Sr. Alcides Nunes Clavero cedeu um terreno de sua propriedade, localizado na esquina da Rua Sampaio Bueno com a Avenida Frederico Ozanan, para que ali se realizasse a primeira quermesse em prol da construção da Igreja Nossa Senhora Aparecida. Os primeiros recursos para a construção da Igreja foram conseguidos através das rifas e donativos. A primeira quermesse foi realizada no Sábado de Aleluia do ano de 1957”, relata Ana Paula em seus registros.</p>
 
-      <img src='../../assets/img/pages/paroquia/historia/redimensionadas/13.jpg' className='' alt='comissões, doações e quermesses para arrecadar dinheiro' />
+      <Image 
+        src='/img/paroquia/historia/redimensionadas/13.jpg' 
+        width={680}
+        height={450}
+        className='' 
+        alt='comissões, doações e quermesses para arrecadar dinheiro' 
+      />
 
       <h2 className='text-2xl font-bold uppercase'>Os Primeiros Movimentos: Cruzeiro, Pregações, Terço e Catequese</h2>
 
@@ -64,7 +80,13 @@ export default function Historia() {
 
       <p className=''>O movimento no bairro crescia e o objetivo era claro: a construção da igreja. A luta que era de recursos para a construção agora também passava a ser para a conscientização religiosa, logo foi se colocado um cruzeiro onde futuramente iria ser construída a igreja. “Assim, no dia 5 de maio de 1957, com a presença do Cônego Viturino, da Ordem Premonstratense, que fez um empolgante sermão, foi erguido o cruzeiro. Daí por diante, todo dia 5 de cada mês, com a presença de um padre que vinha do Colégio São Norberto era rezado o terço e feita uma pregação. No dia 6 de março, por autorização do Padre Serra, foi iniciado o catecismo no salão da Avenida Frederico Ozanan, 946. Esse catecismo era supervisionado pelo Sr. José Grossi e ministrado por cinco catequistas da Matriz Nossa Senhora do Patrocínio: Terezinha Alves Pereira, Vanda dos Santos, Valdete Ometto, Catarina Garrido e Elza Schiavon, tendo sido matriculadas 120 crianças de ambos os sexos, para frequentá-lo”, explica o documento de Ana Paula.</p>
 
-      <img src='../../assets/img/pages/paroquia/historia/redimensionadas/12.jpg' className='' alt='Pregação' />
+      <Image
+        src='/img/paroquia/historia/redimensionadas/10.jpg' 
+        width={680}
+        height={450}
+        className='' 
+        alt='Pregação' 
+      />
 
       <h2 className='text-2xl font-bold uppercase'>O Começo: A Colocação da Pedra Fundamental</h2>
 
@@ -78,7 +100,13 @@ export default function Historia() {
 
       <p className=''>“Após a procissão foi realizada uma grande quermesse. O projeto da construção da Igreja foi elaborado pelo engenheiro civil Dr. Nilo André Bernardi, que fez tudo graciosamente, tendo inclusive, acompanhado a construção. Daí para frente, foram fundadas várias congregações, como a de filhas de Maria, dos Marianos e do Apostolado da Oração. A construção da Igreja foi desenvolvida normalmente”, relata o documento de Ana Paula.</p>
 
-      <img src='../../assets/img/pages/paroquia/historia/redimensionadas/8.jpg' className='' alt='A colocação da pedra fundamental' />
+      <Image 
+        src='/img/paroquia/historia/redimensionadas/8.jpg' 
+        width={680}
+        height={450}
+        className='' 
+        alt='A colocação da pedra fundamental' 
+      />
 
       <h2 className='text-2xl font-bold uppercase'>Mãos a obra: Os Trabalhos para a Construção</h2>
 
@@ -90,7 +118,13 @@ export default function Historia() {
 
       <p className=''>Ao término da construção, em 1967, foi entregue aos cuidados do Padre Victor Nardelli, sendo constituída posteriormente como Paróquia Nossa Senhora Aparecida em 12 de outubro de 1968 passando por diversos párocos, tendo como o primeiro deles o Cônego Gastão Oliboni, popularmente conhecido como Padre Gastão até hoje estar sob os cuidados do Padre Celso Luiz Buscariolo, o 8º pároco de nossa comunidade desde o seu nascimento.</p>
 
-      <img src='../../assets/img/pages/paroquia/historia/redimensionadas/4.jpg' className='' alt='Construção da Paróquia' />
+      <Image 
+        src='/img/paroquia/historia/redimensionadas/10.jpg' 
+        width={680}
+        height={450}
+        className='' 
+        alt='Construção da Paróquia' 
+      />
 
       <h2 className='text-2xl font-bold uppercase'>O Sentimento</h2>
 
@@ -98,7 +132,13 @@ export default function Historia() {
 
       <p className=''>E hoje a nossa comunidade continua e você que nos lê e participa de nossas celebrações. Obrigado por fazer parte dessa história.</p>
 
-      <img src='../../assets/img/pages/paroquia/historia/redimensionadas/14-1.png' className='' alt='Vitral da igreja antiga' />
+      <Image 
+        src='/img/paroquia/historia/redimensionadas/14-1.png' 
+        width={680}
+        height={450}
+        className='' 
+        alt='Vitral da igreja antiga' 
+      />
 
       <p className=''><em>Douglas Mendes Soto e Letícia Maria</em></p>
 
