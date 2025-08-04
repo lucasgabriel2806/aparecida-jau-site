@@ -1,40 +1,51 @@
 import Link from 'next/link';
 
+import Image from 'next/image';
+
 export function Header() {
 
     return(
 
-        <header className="flex px-2 py-4 bg-zinc-900 text-white">
+        <header className="flex px-2 py-4 border-b-2 border-black">
 
             <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
 
                 <div>
-                    Logo
+                    <Link href='/'>
+
+                        <Image 
+                            src='/img/logo/aparecida-no-bg.png'
+                            width={270}
+                            height={78}
+                            alt='logo'
+                        />
+
+                    </Link>
                 </div>
 
                 <nav>
 
-                    <ul className="flex items-center justify-center gap-2">
+                    <ul className="flex items-center justify-center gap-10">
 
-                        <li>
+                        <li className='font-bold uppercase'>
                             <Link href='/'>
-                                Home
+                                Início
                             </Link>
                         </li>
 
-                        <li>
+                        <li className='font-bold uppercase'>
                             <Link href='/paroquia/historia'>
                                 Paróquia
                             </Link>
                         </li>
 
-                        <li>
+                        <li className='font-bold uppercase'>
                             <Link href='/boletim'>
                                 Boletim
                             </Link>
                         </li>
 
-                        <li>
+                        <li className='font-bold uppercase'>
                             <Link href='/contato'>
                                 Contato
                             </Link>

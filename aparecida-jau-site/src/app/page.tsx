@@ -10,7 +10,9 @@ export default function Home() {
 
     <div>
 
-      <h1>Home</h1>
+      <h2 className="font-bold uppercase">Notícias e Eventos</h2>
+
+      
 
     </div>
 
