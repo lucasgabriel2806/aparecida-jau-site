@@ -18,10 +18,12 @@ export function Footer() {
                 <div className="border-2 border-black">
                     <h2>Redes sociais</h2>
                     <div>
-                        <FaYoutube />
-                        <FaFacebookF />
-                        <FaInstagram />
-                        <FaWhatsapp />
+                        <div className="border-2 w-[50px] rounded">
+                            <FaYoutube size='25' />
+                        </div>
+                        <FaFacebookF size='25' />
+                        <FaInstagram size='25' />
+                        <FaWhatsapp size='25' />
                     </div>
                 </div>
 
