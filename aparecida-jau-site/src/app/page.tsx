@@ -64,27 +64,58 @@ export default function Home() {
 
         <div className='flex flex-col justify-around gap-4 md:flex-row'>
 
-            <Image 
-              className='rounded-2xl'
-              src={'/img/inicio/sobre-paroco.jpg'}
-              width={400}
-              height={400}
-              alt={''}
-            />
+          <Image 
+            className='rounded-2xl'
+            src={'/img/inicio/sobre-paroco.jpg'}
+            width={400}
+            height={400}
+            alt={''}
+          />
 
-            <div className='w-[630px] p-20 text-white text-[20px]'>
+          <div className='w-[630px] p-20 text-white text-[20px]'>
 
-              <p className='mb-5'>
-                Padre Celso Buscariollo, atual pároco da Paróquia Nossa Senhora Aparecida. Natural da cidade de Jaú, traz em sua história de vida o amor pela Igreja e a dedicação ao serviço pastoral.
-              </p>
+            <p className='mb-5'>
+              Padre Celso Buscariollo, atual pároco da Paróquia Nossa Senhora Aparecida. Natural da cidade de Jaú, traz em sua história de vida o amor pela Igreja e a dedicação ao serviço pastoral.
+            </p>
 
-              <p>
-                Homem de fé e simplicidade, Padre Celso é reconhecido por sua palavra serena, suas homilias profundas e seu zelo pelo bem espiritual de seus paroquianos. Sob sua liderança, a Paróquia Nossa Senhora Aparecida segue sendo um espaço de evangelização, acolhimento e fraternidade.
-              </p>
+            <p>
+              Homem de fé e simplicidade, Padre Celso é reconhecido por sua palavra serena, suas homilias profundas e seu zelo pelo bem espiritual de seus paroquianos. Sob sua liderança, a Paróquia Nossa Senhora Aparecida segue sendo um espaço de evangelização, acolhimento e fraternidade.
+            </p>
 
-            </div>
+          </div>
 
         </div>
+
+      </section>
+
+      {/* Sobre a paróquia */}
+      <section className='p-28'>
+
+        <h2 className='font-bold uppercase text-3xl text-[#fff] text-center mb-10'>Sobre a Paróquia</h2>     
+
+        <div className='flex flex-col justify-around gap-4 md:flex-row'>
+
+          <div className='w-[630px] p-20 text-[20px]'>
+
+            <p className='mb-5'>
+              A Paróquia Nossa Senhora Aparecida está situada na cidade de Jaú, interior de São Paulo. Criada com o objetivo de atender ao crescente número de católicos no bairro e arredores, a paróquia se tornou, ao longo dos anos, um espaço de oração, acolhimento e serviço.
+            </p>
+
+            <p>
+              Sob a proteção de Nossa Senhora Aparecida, padroeira do Brasil, a paróquia realiza diversas atividades pastorais, movimentos e serviços, voltados para a evangelização, a formação cristã e o auxílio aos mais necessitados. Suas celebrações litúrgicas são marcadas pela participação ativa da comunidade, que encontra ali um ambiente fraterno e espiritual.
+            </p>
+
+          </div>
+
+          <Image 
+            className='rounded-2xl'
+            src={'/img/inicio/sobre-paroquia.jpg'}
+            width={400}
+            height={400}
+            alt={''}
+          />
+
+        </div>    
 
       </section>
 

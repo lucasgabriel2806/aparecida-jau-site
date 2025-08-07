@@ -1,54 +1,51 @@
+import { FaYoutube, FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
 import Link from 'next/link';
 
 export function Footer() {
 
     return(
 
-        <footer className="absolute bottom-0 right-0 w-screen flex flex-col px-2 py-4 bg-[#2C3E50] text-white">
+        <footer>
 
-            <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
+            <div>
 
                 <div>
-                    Logo
+                    <h2>Localização</h2>
+                    <p>R. Vinte e Quatro de Maio Vila Nova Jau</p>
                 </div>
 
-                <nav>
+                <div>
+                    <h2>Redes sociais</h2>
+                    <div>
+                        <FaYoutube />
+                        <FaFacebookF />
+                        <FaInstagram />
+                        <FaWhatsapp />
+                    </div>
+                </div>
 
-                    <ul className="flex items-center justify-center gap-2">
+                <div>
 
-                        <li>
-                            <Link href='/'>
-                                Home
-                            </Link>
-                        </li>
+                    <h2>Páginas</h2>
+                    
+                    <Link href="/">
+                        Início
+                    </Link>
 
-                        <li>
-                            <Link href='/paroquia/historia'>
-                                Paróquia
-                            </Link>
-                        </li>
+                    <Link href="paroquia/historia">
+                        Paróquia
+                    </Link>
 
-                        <li>
-                            <Link href='/boletim'>
-                                Boletim
-                            </Link>
-                        </li>
+                    <Link href="boletim">
+                        Boletim Informativo
+                    </Link>
 
-                        <li>
-                            <Link href='/contato'>
-                                Contato
-                            </Link>
-                        </li>
+                </div>
 
-                    </ul>
-                
-                </nav>
-                
             </div>
 
-            <div className='bg-[#1A252F]'>
-                <small>&copy;2025 - Paróquia Nossa Senhora Aparecida</small>
-            </div>
+            <div></div>
 
         </footer>
 
