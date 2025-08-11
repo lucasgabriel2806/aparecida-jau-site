@@ -8,49 +8,74 @@ export function Footer() {
 
         <footer>
 
-            <div className="flex justify-evenly flex-wrap bg-[#2C3E50] text-white">
+            <div className="flex justify-evenly flex-col md:flex-row gap-[50px] p-[50px] bg-[#2C3E50] text-white">
 
-                <div className="border-2 border-black">
-                    <h2>Localização</h2>
+                {/* LOCALIZAÇÃO */}
+                <div className="flex flex-col justify-center items-center border-2 border-black">
+
+                    <h2 className="text-[20px] font-bold uppercase text-center mb-[20px]">Localização</h2>
+
                     <address>R. Vinte e Quatro de Maio Vila Nova Jau</address>
+
                 </div>
 
+                {/* REDES SOCIAIS */}
                 <div className="border-2 border-black">
-                    <h2>Redes sociais</h2>
-                    <div>
-                        <div className="border-2 w-[50px] rounded">
+
+                    <h2 className="text-[20px] font-bold uppercase text-center mb-[20px]">Redes sociais</h2>
+
+                    <div className="flex justify-evenly md:justify-between">
+
+                        <div className="border-2 p-[15px] rounded-[50%]">
                             <FaYoutube size='25' />
                         </div>
-                        <FaFacebookF size='25' />
-                        <FaInstagram size='25' />
-                        <FaWhatsapp size='25' />
+
+                        <div className="border-2 p-[15px] rounded-[50%]">
+                            <FaFacebookF size='25' />
+                        </div>
+
+                        <div className="border-2 p-[15px] rounded-[50%]">
+                            <FaInstagram size='25' />
+                        </div>
+
+                        <div className="border-2 p-[15px] rounded-[50%]">
+                            <FaWhatsapp size='25' />
+                        </div>
+
                     </div>
+
                 </div>
 
+                {/* PÁGINAS */}
                 <div className="border-2 border-black">
 
-                    <h2>Páginas</h2>
+                    <h2 className="text-[20px] font-bold uppercase text-center mb-[20px]">Páginas</h2>
                     
-                    <nav>
+                    <nav className="flex flex-col text-center">
+
                         <Link href="/">
                             Início
                         </Link>
+
                         <Link href="paroquia/historia">
                             Paróquia
                         </Link>
+
                         <Link href="boletim">
                             Boletim Informativo
                         </Link>
+
                         <Link href="contato">
                             Contato
                         </Link>
+
                     </nav>
 
                 </div>
 
             </div>
 
-            <div>
+            <div className="bg-[#1A252F] text-white text-center pt-[20px] pb-[20px]">
                 <small>&copy;2025 - Paróquia Nossa Senhora Aparecida</small>
             </div>
 
