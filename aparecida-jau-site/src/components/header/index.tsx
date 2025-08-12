@@ -6,14 +6,16 @@ export function Header() {
 
     return(
 
-        <header className="flex px-2 py-4 border-b-2 border-black">
+        <header className="flex sticky top-0 bg-[#fff] px-2 py-4 border-b-2 border-black">
 
             <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
 
                 <div>
                     <Link href='/'>
 
+                        {/* Consertar logo do header com margin extra */}
                         <Image 
+                            className='m-0'
                             src='/img/logo/aparecida-no-bg.png'
                             width={270}
                             height={78}

@@ -6,7 +6,7 @@ export function Footer() {
 
     return(
 
-        <footer>
+        <footer className="">
 
             <div className="flex justify-evenly flex-col md:flex-row gap-[50px] p-[50px] bg-[#2C3E50] text-white">
 
