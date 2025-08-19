@@ -30,6 +30,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="pt-BR">
       <body
@@ -40,7 +41,7 @@ export default function RootLayout({
 
         {children}
 
-        {/* <Footer /> */}
+        <Footer />
 
       </body>
     </html>

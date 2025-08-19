@@ -1,15 +1,13 @@
 .dropdown-content {
     display: none;
-}
-
-.dropdown-content {
-    display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 100px;
-    padding: 10px;
+    min-width: 150px;
+    background: white;
+    padding: 15px 10px;
     z-index: 1;
     border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .dropdown:hover .dropdown-content {
