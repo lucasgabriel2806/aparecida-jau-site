@@ -1,3 +1,7 @@
+import { FaAngleDown } from "react-icons/fa";
+
+import './style.css';
+
 import Link from 'next/link';
 
 import Image from 'next/image';
@@ -6,7 +10,8 @@ export function Header() {
 
     return(
 
-        <header className="flex sticky top-0 bg-[#fff] px-2 py-4 border-b-2 border-black">
+        // Adicionar no futuro: sticky top-0 z-[9999]
+        <header className="flex bg-[#fff] px-2 py-4 border-b-2 border-black">
 
             <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
 
@@ -35,10 +40,23 @@ export function Header() {
                             </Link>
                         </li>
 
-                        <li className='font-bold uppercase'>
-                            <Link href='/paroquia/historia'>
+                        {/* dropdown */}
+                        <li className='dropdown font-bold uppercase'>
+
+                            {/* dropbtn */}
+                            <Link 
+                                className="dropbtn flex items-center"
+                                href='/paroquia/historia'>
                                 Paróquia
+                                <FaAngleDown />
                             </Link>
+
+                            {/* dropdown-content */}
+                            <div className="dropdown-content">
+                                <Link href="/paroquia/historia">
+                                    História
+                                </Link>
+                            </div>
                         </li>
 
                         <li className='font-bold uppercase'>

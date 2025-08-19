@@ -60,19 +60,20 @@ export default function Home() {
       {/* Sobre o Pároco */}
       <section className='bg-[#2C3E50] p-28'>
 
-        <h2 className='font-bold uppercase text-3xl text-[#fff] text-center mb-10'>Sobre o Pároco</h2>
+        <h2 className='font-bold uppercase text-5xl text-[#fff] text-center mb-10'>Sobre o Pároco</h2>
 
-        <div className='flex flex-col justify-around gap-4 md:flex-row'>
+        <div className='flex flex-col justify-evenly gap-4 md:flex-row'>
 
           <Image 
             className='rounded-2xl'
             src={'/img/inicio/sobre-paroco.jpg'}
             width={400}
             height={400}
+            style={{ objectFit: 'cover', maxHeight: '400px' }}
             alt={''}
           />
 
-          <div className='w-[630px] p-20 text-white text-[20px]'>
+          <div className='w-[800px] p-15 text-white text-[20px]'>
 
             <p className='mb-5'>
               Padre Celso Buscariollo, atual pároco da Paróquia Nossa Senhora Aparecida. Natural da cidade de Jaú, traz em sua história de vida o amor pela Igreja e a dedicação ao serviço pastoral.
@@ -91,11 +92,11 @@ export default function Home() {
       {/* Sobre a paróquia */}
       <section className='p-28'>
 
-        <h2 className='font-bold uppercase text-3xl text-[#fff] text-center mb-10'>Sobre a Paróquia</h2>     
+        <h2 className='font-bold uppercase text-5xl text-center mb-10'>Sobre a Paróquia</h2>     
 
-        <div className='flex flex-col justify-around gap-4 md:flex-row'>
+        <div className='flex flex-col justify-evenly gap-4 md:flex-row'>
 
-          <div className='w-[630px] p-20 text-[20px]'>
+          <div className='w-[800px] p-20 text-[20px]'>
 
             <p className='mb-5'>
               A Paróquia Nossa Senhora Aparecida está situada na cidade de Jaú, interior de São Paulo. Criada com o objetivo de atender ao crescente número de católicos no bairro e arredores, a paróquia se tornou, ao longo dos anos, um espaço de oração, acolhimento e serviço.
@@ -112,6 +113,7 @@ export default function Home() {
             src={'/img/inicio/sobre-paroquia.jpg'}
             width={400}
             height={400}
+            style={{ objectFit: 'cover', maxHeight: '400px' }}
             alt={''}
           />
 
