@@ -37,32 +37,40 @@ export default function Home() {
       </section>
 
       {/* Notícias e Eventos */}
-      <h2 className='font-bold uppercase text-3xl'>Notícias e Eventos</h2>
-
-      <div className='flex mb-20'>
-
-        <MiniCard
-          img={'/img/inicio/cards/quarta-cinzas-card.jpg'}
-          title='Quarta-feira de cinzas'
-          desc='Início da Quaresma'
-          alt={'teste'}
-        />
-
-        <MiniCard
-          img={'/img/inicio/cards/procissao-domingo-pascoa-card.jpg'}
-          title='Domingo de Páscoa'
-          desc='Procissão às 06:00h'
-          alt={'teste'}
-        />
-
-      </div>
+      <section>
+        <h2 className='font-bold uppercase text-3xl'>Notícias e Eventos</h2>
+        <div className='flex mb-20'>
+          <MiniCard
+            img={'/img/inicio/cards/quarta-cinzas-card.jpg'}
+            title='Quarta-feira de cinzas'
+            desc='Início da Quaresma'
+            alt={'teste'}
+          />
+          <MiniCard
+            img={'/img/inicio/cards/procissao-domingo-pascoa-card.jpg'}
+            title='Domingo de Páscoa'
+            desc='Procissão às 06:00h'
+            alt={'teste'}
+          />
+        </div>
+      </section>
 
       {/* Sobre o Pároco */}
-      <section className='bg-[#2C3E50] p-28'>
+      <section 
+        className='
+        bg-[#2C3E50] p-28
+        
+        max-md:p-10'
+      >
 
         <h2 className='font-bold uppercase text-5xl text-[#fff] text-center mb-10'>Sobre o Pároco</h2>
 
-        <div className='flex flex-col justify-evenly gap-4 md:flex-row'>
+        <div 
+          className='
+          flex flex-row justify-evenly gap-4 
+        
+          max-lg:flex-col max-lg:items-center'
+        >
 
           <Image 
             className='rounded-2xl'
@@ -73,7 +81,13 @@ export default function Home() {
             alt={''}
           />
 
-          <div className='w-[800px] p-15 text-white text-[20px]'>
+          <div 
+            className='
+            w-[800px] p-15 text-white text-[20px]
+            
+            max-lg:flex-col
+            max-md:p-2 max-md:w-auto'
+          >
 
             <p className='mb-5'>
               Padre Celso Buscariollo, atual pároco da Paróquia Nossa Senhora Aparecida. Natural da cidade de Jaú, traz em sua história de vida o amor pela Igreja e a dedicação ao serviço pastoral.
@@ -90,13 +104,37 @@ export default function Home() {
       </section>
 
       {/* Sobre a paróquia */}
-      <section className='p-28'>
+      <section 
+        className='
+        p-28 mt-10 mb-10
 
-        <h2 className='font-bold uppercase text-5xl text-center mb-10'>Sobre a Paróquia</h2>     
+        max-md:p-2'
+      >
 
-        <div className='flex flex-col justify-evenly gap-4 md:flex-row'>
+        <h2 
+          className='
+          font-bold uppercase text-5xl text-center mb-10
+          
+          max-md:w-[250px] max-md:mx-auto'
+        >
+          Sobre a Paróquia
+        </h2>     
 
-          <div className='w-[800px] p-20 text-[20px]'>
+        <div 
+          className='
+          flex flex-row justify-evenly gap-4
+
+          max-lg:flex-col max-lg:items-center
+          '
+        >
+
+          <div 
+            className='
+            w-[800px] p-20 text-[20px]
+
+            max-lg:w-auto max-lg:p-10
+            '
+          >
 
             <p className='mb-5'>
               A Paróquia Nossa Senhora Aparecida está situada na cidade de Jaú, interior de São Paulo. Criada com o objetivo de atender ao crescente número de católicos no bairro e arredores, a paróquia se tornou, ao longo dos anos, um espaço de oração, acolhimento e serviço.
