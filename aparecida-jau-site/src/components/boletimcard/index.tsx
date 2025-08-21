@@ -4,26 +4,25 @@ import Link from 'next/link';
 
 import Image from 'next/image';
 
-function BoletimCard() {
+function BoletimCard({ imgUrl, title }) {
 
   return (
 
     <Link href='/'>
       <div
         className='
-        w-[260px] h-[440px] border-2 border-black rounded-[10px]
+        w-[260px] h-[420px] border-2 border-black rounded-[10px]
         p-2'
       >
           <Image
             className='rounded'
-            src={'/img/boletim/2023/abril.jpg'}
+            src={imgUrl}
             alt={'teste'}
             width={260}
             height={440}
           />
-          <div>
-            <h3>Mês</h3>
-            <p>Descrição?</p>
+          <div className='ml-3 mt-4'>
+            <h3 className='font-bold'>{title}</h3>
           </div>
       </div>
     </Link>

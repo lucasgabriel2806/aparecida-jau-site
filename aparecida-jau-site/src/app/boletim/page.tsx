@@ -18,7 +18,17 @@ export default function Boletim() {
 
         <h2>2023</h2>
 
-        <BoletimCard />
+        <div className='flex flex-wrap justify-center gap-4 mt-4'>
+          <BoletimCard imgUrl={'/img/boletim/2023/fevereiro.jpg'} title={'Fevereiro'} />
+          <BoletimCard imgUrl={'/img/boletim/2023/marco.jpg'} title={'Março'} />
+          <BoletimCard imgUrl={'/img/boletim/2023/abril.jpg'} title={'Abril'} />
+          <BoletimCard imgUrl={'/img/boletim/2023/fevereiro.jpg'} title={'Fevereiro'} />
+          <BoletimCard imgUrl={'/img/boletim/2023/marco.jpg'} title={'Março'} />
+          <BoletimCard imgUrl={'/img/boletim/2023/abril.jpg'} title={'Abril'} />
+          <BoletimCard imgUrl={'/img/boletim/2023/fevereiro.jpg'} title={'Fevereiro'} />
+          <BoletimCard imgUrl={'/img/boletim/2023/marco.jpg'} title={'Março'} />
+          <BoletimCard imgUrl={'/img/boletim/2023/abril.jpg'} title={'Abril'} />
+        </div>
 
         <h2>2024</h2>
 
