@@ -8,7 +8,9 @@ function BoletimCard() {
 
     <div className='w-[260px] h-[440px] border-2 border-black rounded-[10px]'>
 
-        
+        {/* <Image
+          src={}  
+        /> */}
 
     </div>
 
