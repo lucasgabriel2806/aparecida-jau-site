@@ -1,37 +1,43 @@
 import Image from "next/image";
+import Link from "next/link";
 
+// Componente MiniCard
 export function MiniCard({ img, title, desc, alt }) {
 
     return (
 
         <>
+
+            <Link href={'/noticias-e-eventos/'}>
         
-            {/* Card */}
-            <div className='w-[288px] h-[318px] p-3 border-2 border-gray-500 rounded-xl'>
+                {/* Card */}
+                <div className='w-[288px] h-[318px] p-[10px] border-2 border-gray-500 rounded-xl'>
 
-                {/* Imagem */}
-                <div className=''>
+                    {/* Imagem */}
+                    <div>
 
-                    <Image 
-                      className='mx-auto rounded-t-xl pb-3'
-                      src={img}
-                      width={260}
-                      height={180}
-                      alt={alt}  
-                    />
+                        <Image 
+                        className='mx-auto rounded-t-xl pb-[10px]'
+                        src={img}
+                        width={260}
+                        height={180}
+                        alt={alt}  
+                        />
+
+                    </div>
+
+                    {/* Texto */}
+                    <div>
+
+                        <h3 className="text-xl font-bold">{title}</h3>
+
+                        <p>{desc}</p>
+
+                    </div>
 
                 </div>
 
-                {/* Texto */}
-                <div>
-
-                    <h3 className="font-bold">{title}</h3>
-
-                    <p>{desc}</p>
-
-                </div>
-
-            </div>
+            </Link>
 
         </>
 

@@ -1,22 +1,26 @@
+// Componentes
 import { MiniCard } from '@/components/minicard';
 
 import Image from 'next/image';
 import { Metadata } from 'next';
 
+// Metadado específico da página
 export const metadata: Metadata = {
-  title: 'Aparecida Jaú | Home'
+  title: 'Aparecida Jaú | Inicio'
 }
 
-export default function Home() {
+// Componente Inicio
+export default function Inicio() {
 
   return(
 
     <>
 
+      {/* Imagem de fundo */}
       <section
-        className='h-[calc(100vh_-_87px)] bg-cover bg-center relative 
+        className='
         flex items-center justify-center 
-        mb-20'
+        h-[calc(100vh_-_87px)] bg-cover bg-center relative'
         style={{
           backgroundImage: "url('/img/inicio/igreja_atual.jpeg')"
         }}
@@ -37,43 +41,57 @@ export default function Home() {
       </section>
 
       {/* Notícias e Eventos */}
-      <section>
-        <h2 className='font-bold uppercase text-3xl'>Notícias e Eventos</h2>
-        <div className='flex mb-20'>
+      <section className='px-[8.5vw] py-[150px]'>
+
+        <h2 className='text-3xl font-bold uppercase mb-8'>Notícias e Eventos</h2>
+
+        <div className='flex flex-wrap justify-between'>
+
           <MiniCard
             img={'/img/inicio/cards/quarta-cinzas-card.jpg'}
             title='Quarta-feira de cinzas'
             desc='Início da Quaresma'
             alt={'teste'}
           />
+
           <MiniCard
             img={'/img/inicio/cards/procissao-domingo-pascoa-card.jpg'}
             title='Domingo de Páscoa'
             desc='Procissão às 06:00h'
             alt={'teste'}
           />
+
+          <MiniCard
+            img={'/img/inicio/cards/quarta-cinzas-card.jpg'}
+            title='Quarta-feira de cinzas'
+            desc='Início da Quaresma'
+            alt={'teste'}
+          />
+
+          <MiniCard
+            img={'/img/inicio/cards/procissao-domingo-pascoa-card.jpg'}
+            title='Domingo de Páscoa'
+            desc='Procissão às 06:00h'
+            alt={'teste'}
+          />
+
         </div>
+
       </section>
 
       {/* Sobre o Pároco */}
-      <section 
-        className='
-        bg-[#2C3E50] p-28
-        
-        max-md:p-10'
-      >
+      <section className='bg-[#2C3E50] px-[8.5vw] py-[150px]'>
 
         <h2 className='font-bold uppercase text-5xl text-[#fff] text-center mb-10'>Sobre o Pároco</h2>
 
         <div 
           className='
-          flex flex-row justify-evenly gap-4 
+          flex flex-row gap-4 
         
           max-lg:flex-col max-lg:items-center'
         >
 
-          <Image 
-            className='rounded-2xl'
+          <Image className='rounded-2xl'
             src={'/img/inicio/sobre-paroco.jpg'}
             width={400}
             height={400}
@@ -89,11 +107,11 @@ export default function Home() {
             max-md:p-2 max-md:w-auto'
           >
 
-            <p className='mb-5'>
+            <p className='text-justify mb-[20px]'>
               Padre Celso Buscariollo, atual pároco da Paróquia Nossa Senhora Aparecida. Natural da cidade de Jaú, traz em sua história de vida o amor pela Igreja e a dedicação ao serviço pastoral.
             </p>
 
-            <p>
+            <p className='text-justify'>
               Homem de fé e simplicidade, Padre Celso é reconhecido por sua palavra serena, suas homilias profundas e seu zelo pelo bem espiritual de seus paroquianos. Sob sua liderança, a Paróquia Nossa Senhora Aparecida segue sendo um espaço de evangelização, acolhimento e fraternidade.
             </p>
 
