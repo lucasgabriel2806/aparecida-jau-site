@@ -52,6 +52,7 @@ export default function Inicio() {
             title='Quarta-feira de cinzas'
             desc='Início da Quaresma'
             alt={'teste'}
+            urlHref={'quarta-feira-de-cinzas'}
           />
 
           <MiniCard
@@ -59,6 +60,7 @@ export default function Inicio() {
             title='Domingo de Páscoa'
             desc='Procissão às 06:00h'
             alt={'teste'}
+            urlHref={'quarta-feira-de-cinzas'}
           />
 
           <MiniCard
@@ -66,6 +68,7 @@ export default function Inicio() {
             title='Quarta-feira de cinzas'
             desc='Início da Quaresma'
             alt={'teste'}
+            urlHref={'quarta-feira-de-cinzas'}
           />
 
           <MiniCard
@@ -73,6 +76,7 @@ export default function Inicio() {
             title='Domingo de Páscoa'
             desc='Procissão às 06:00h'
             alt={'teste'}
+            urlHref={'quarta-feira-de-cinzas'}
           />
 
         </div>

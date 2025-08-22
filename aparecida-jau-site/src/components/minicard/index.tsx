@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Componente MiniCard
-export function MiniCard({ img, title, desc, alt }) {
+export function MiniCard({ img, title, desc, alt, urlHref }) {
 
     return (
 
         <>
 
-            <Link href={'/noticias-e-eventos/'}>
+            <Link href={`/noticias-e-eventos/${urlHref}`}>
         
                 {/* Card */}
                 <div className='w-[288px] h-[318px] p-[10px] border-2 border-gray-500 rounded-xl'>
