@@ -17,7 +17,7 @@ function BoletimCard({ imgUrl, title }) {
           <Image
             className='rounded'
             src={imgUrl}
-            alt={'teste'}
+            alt={''}
             width={260}
             height={440}
           />
