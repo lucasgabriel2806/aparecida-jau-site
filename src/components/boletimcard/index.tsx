@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import Image from 'next/image';
 
-function BoletimCard({ imgUrl, title }) {
+function BoletimCard({ imgUrl, title }: { imgUrl: string; title: string }) {
 
   return (
 
