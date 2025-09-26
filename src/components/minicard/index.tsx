@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Componente MiniCard
-export function MiniCard({ img, title, desc, alt, urlHref }) {
+export function MiniCard({ img, title, desc, alt, urlHref }: { img: string, title: string, desc: string, alt: string, urlHref: string }) {
 
     return (
 
