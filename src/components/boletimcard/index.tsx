@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 import Image from 'next/image';
 
-function BoletimCard({ imgUrl, title }: { imgUrl: string; title: string }) {
+function BoletimCard({ imgUrl, urlHref, title }: { imgUrl: string; urlHref: string, title: string }) {
 
   return (
 
-    <Link href='/'>
+    <Link href={urlHref}>
       <div
         className='
         w-[260px] h-[420px] border-2 border-black rounded-[10px]

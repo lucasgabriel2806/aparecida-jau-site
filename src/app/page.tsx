@@ -55,7 +55,7 @@ export default function Inicio() {
           <MiniCard
             img={'1MaZA1Kw5XDNbqXoY8THz_7w03l1DVAdo'}
             title='Arraia da Mãe Aparecida'
-            desc='Inserir desc'
+            desc='19 e 20 / 06 / 2025'
             alt={''}
             urlHref={'paroquia/noticias-e-eventos/2025/junho/arraia-mae-aparecida'}
           />
@@ -63,17 +63,25 @@ export default function Inicio() {
           <MiniCard
             img={'1QGhCue5O9KBQyPlLb_ns3_DvfC_79Mlw'}
             title='Jubileu de Prata'
-            desc='Descrição'
-            alt={'teste'}
+            desc='21 / 07 / 2025'
+            alt={''}
             urlHref={'paroquia/noticias-e-eventos/2025/julho/jubileu-de-prata'}
           />
 
           <MiniCard
             img={'1Cypbs3BUAS3fGzM5BgVkipxMdHIusB_1'}
             title='Carreata de São Cristovão'
-            desc='Inserir desc'
+            desc='03 / 08 / 2025'
             alt={''}
             urlHref={'paroquia/noticias-e-eventos/2025/agosto/carreata-sao-cristovao'}
+          />
+
+          <MiniCard
+            img={'16-6pFUfZ19-Gy5zV7PTBP7Ka7FAMzgmi'}
+            title='Encontro dos Leitores da Forania'
+            desc='23 / 08 / 2025'
+            alt={''}
+            urlHref={'paroquia/noticias-e-eventos/2025/agosto/leitores-forania'}
           />
 
         </div>
